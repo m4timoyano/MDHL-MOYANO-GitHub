@@ -73,7 +73,6 @@ header{
 }
 .enlace-2-st2{
     margin: 0 10px 0 10px;
-    background-color: forestgreen;
 }
 a.enlace-st2:hover{
     color: rgb(255, 183, 0);
@@ -152,4 +151,7 @@ article.art-about p{
 }
 .p-2{
     margin-top: 20px;
+}
+a[href="#"]{
+    background-color: forestgreen;
 }
