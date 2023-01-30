@@ -2,4 +2,154 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: lighter;
+}
+header{
+    height: 300px;
+}
+.titulo-ppal{
+    margin: 2px 5px;
+    font-size: 60px;
+    font-style: italic;
+    color: rgb(255, 225, 32);
+    filter: drop-shadow(3px 3px rgb(55, 55, 151));
+}
+.portada-2{
+    height: 210px;
+    background-image: url(../images/design1_image2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-bottom: 5px;
+}
+.logo{
+    position: absolute;
+    width: 150px;
+    top: 540px; left: 85px;
+    background-color: darkcyan;
+    border-radius: 10px;
+}
+.titulo-home{
+    display: block;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 3px 0 5px 0;
+    text-align: center;
+    font-size: 38px;
+    margin: 5px 0 25px 0;
+}
+.nav-home{
+    background-image: url(../images/hockey-1.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    display: inline-block;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 10px;
+    width: 600px;
+    height: 400px;
+}
+.enlace{
+    display: none;
+}
+.nav-home-st2{
+    position: absolute;
+    top: 68px; right: 15px;
+}
+.enlace-st2{
+    display: inline-block;
+    width: 140px;
+    height: 35px;
+    border: 2px solid #000;
+    background-color: steelblue;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(4px 4px rgba(75, 75, 75, 0.646));
+}
+.enlace-2-st2{
+    margin: 0 10px 0 10px;
+    background-color: forestgreen;
+}
+a.enlace-st2:hover{
+    color: rgb(255, 183, 0);
+}
+.lista-home{
+    position: absolute;
+    display: inline-block;
+    margin: 10px;
+    padding-left: 20px;
+}
+.art-home{
+    display: block;
+}
+.art-home-2{
+    margin: 65px 0 65px 0;
+}
+h3{
+    font-style: italic;
+    font-size: 28px;
+    font-weight: bold;
+}
+article.art-home p{
+    margin-left: 25px;
+    font-size: 25px;
+}
+.nav-about{
+    background-image: url(../images/hockey-2.jpg);
+    background-size:cover;
+    background-position: right;
+    background-repeat:no-repeat;
+    display: inline-block;
+    margin: 0 10px 10px 10px;
+    padding: 25px;
+    border-radius: 10px;
+    width: 30vw;
+    height: 450px;
+}
+.lista-about{
+    display: inline-block;
+    padding-left: 20px;
+    width: 60vw;
+}
+.art-about{
+    margin: 10px;
+}
+article.art-about h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+article.art-about p{
+    font-size: 20px;
+    text-indent: 30px;
+}
+.nav-contact{
+    background-image: url(../images/hockey-3.jpg);
+    background-size:cover;
+    background-position: right;
+    background-repeat:no-repeat;
+    display: inline-block;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 10px;
+    width: 600px;
+    height: 400px;
+}
+.enlace-contact-2{
+    margin: 110px 0 110px 20px;
+}
+.contact-info{
+    display: inline-block;
+    margin: 50px;
+    padding-left: 20px;
+    padding-top: 10px;
+    position: absolute;
+    font-size: 25px;
+}
+.p-2{
+    margin-top: 20px;
 }
