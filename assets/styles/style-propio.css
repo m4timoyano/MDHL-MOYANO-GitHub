@@ -2,4 +2,190 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(177, 210, 177, 0.696);
+}
+header{
+    background-image: url(../images/design1_image1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 280px;
+}
+.titulo-ppal{
+    display: none;
+    margin: 2px 10px;
+    font-size: 84px;
+    color: rgb(255, 225, 32);
+    background: none;
+    filter: drop-shadow(3px 3px rgb(55, 55, 151));
+}
+.logo{
+    position: absolute;
+    width: 200px;
+    top: 100px; left: 65px;
+    background-color: darkcyan;
+    border-radius: 10px;
+}
+.titulo-home{
+    display: block;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 3px 0 5px 0;
+    text-align: center;
+    font-size: 38px;
+    margin: 5px 0 25px 0;
+}
+.nav-home{
+    background-image: url(../images/hockey-1.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    display: inline-block;
+    margin: 15px 35px 35px 120px;
+    padding: 25px;
+    box-shadow: 3px 3px 2px rgba(0, 40, 92, 0.386);
+    border-radius: 200px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+}
+.enlace{
+    display: block;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(86, 61, 4);
+    filter: drop-shadow(3px 3px rgb(55, 55, 151));
+    text-align: center;
+    width: 180px;
+    margin-left: 85px;
+    background-color: rgba(245, 245, 245, 0.63);
+    border-radius: 10px;
+}
+.enlace-1{
+    margin-top: 20px;
+}
+.enlace-2{
+    margin: 110px 0 80px 85px;
+}
+.lista-home{
+    display: inline-block;
+    margin: 30px 120px 20px 600px;
+    padding: 35px 20px 35px 20px;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 3px 3px 2px rgba(0, 40, 92, 0.386);
+    background-color: whitesmoke;
+}
+.art-home{
+    display: block;
+    background: none;
+}
+.art-home-2{
+    margin: 55px 0 55px 0;
+}
+h3{
+    font-style: italic;
+    font-size: 28px;
+    font-weight: bold;
+    background: none;
+}
+article.art-home p{
+    margin-left: 25px;
+    font-size: 25px;
+    background: none;
+}
+a.enlace:hover{
+    transform: scale(1.2 );
+}
+.cont-about{
+    position: relative;
+}
+.nav-about{
+    background-image: url(../images/hockey-2.jpg);
+    background-size:cover;
+    background-position: right;
+    background-repeat:no-repeat;
+    display: inline-block;
+    margin: 45px 35px 0 45px;
+    padding: 25px;
+    border-radius: 200px;
+    box-shadow: 3px 3px 2px rgba(0, 40, 92, 0.386);
+    width: 400px;
+    height: 400px;
+    position: absolute;
+}
+.enlace-about-1{
+    margin: 110px 0 55px 85px;
+}
+.lista-about{
+    display: inline-block;
+    width: 60vw;
+    margin: 35px 60px 50px 550px;
+    padding: 35px 20px 35px 20px;
+    position: absolute;
+    box-shadow: 3px 3px 2px rgba(0, 40, 92, 0.386);
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+.art-about{
+    margin: 10px;
+    background: none;
+}
+article.art-about h2{
+    font-size: 25px;
+    font-weight: bold;
+    background: none;
+}
+article.art-about p{
+    font-size: 20px;
+    text-indent: 30px;
+    background: none;
+}
+.nav-contact{
+    background-image: url(../images/hockey-3.jpg);
+    background-size:cover;
+    background-position: right;
+    background-repeat:no-repeat;
+    display: inline-block;
+    margin: 15px 35px 35px 120px;
+    padding: 25px;
+    box-shadow: 3px 3px 2px rgba(0, 40, 92, 0.386);
+    border-radius: 200px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+}
+.contact-info{
+    display: inline-block;
+    margin: 150px 0 0 600px;
+    padding-left: 20px;
+    padding-top: 10px;
+    position: absolute;
+    font-size: 25px;
+    background: none;
+}
+.enlace-contact-1{
+    margin: 110px 0 55px 85px;
+}
+.p-2{
+    margin-top: 20px;
+    background: none;
+}
+.p-1{
+    background: none;
+}
+p.p-1 a{
+    background: none;
+}
+.portada-2{
+    display: none;
+}
+.nav-home-st2{
+    display: none;
+}
+a[href="#"]{
+    display: none;
 }
