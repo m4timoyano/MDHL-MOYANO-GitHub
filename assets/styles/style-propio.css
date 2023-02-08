@@ -272,7 +272,7 @@ tr:nth-child(even){
     border-radius: 0 0 0 1rem;
 }
 caption{
-    padding: 0.5rem;
+    padding: 0.8rem;
     background-color: whitesmoke;
     border-radius: 1rem 1rem 0 0;
     box-shadow: 3px 3px 2px rgba(77, 77, 77, 0.669);
@@ -318,6 +318,10 @@ article.tel-correo > a{
     margin: 2rem;
     box-shadow: 3px 3px 2px rgba(118, 11, 11, 0.669);
 }
+dt{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
 .r-title{
     text-align: center;
 }
@@ -341,4 +345,59 @@ article.tel-correo > a{
     list-style-type: circle;
     list-style-position: inside;
     margin-left: 2rem;
+}
+.main-reg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formulario{
+    background-color: whitesmoke;
+    width: 70vw;
+    height: auto;
+    padding: 3rem 4rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 2px rgba(118, 11, 11, 0.669);
+}
+.formulario > h1{
+    align-self: center;
+    padding-bottom: 2rem;
+}
+legend{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+fieldset{
+    margin: 1rem 0;
+    border: none;
+}
+input, select{
+    margin: 0.5rem;
+}
+button{
+    width: fit-content;
+    align-self: center;
+    padding: 0.5rem 1rem;
+    margin: 2rem 0 1rem 0;
+    border-radius: 0.5rem;
+    background-color: rgb(52, 75, 150);
+    color: whitesmoke;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 3px 3px 2px rgba(133, 133, 133, 0.669);
+}
+button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+    color: rgb(255, 234, 0);
+}
+button:not(hover){
+    transition: 0.5s;
+}
+.b-label{
+    font-weight: bold;
 }
