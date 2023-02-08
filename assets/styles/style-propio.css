@@ -306,6 +306,19 @@ article.tel-correo > a{
     border-radius: 0.4rem;
     color: rgb(52, 75, 150);
 }
+.loc-title{
+    align-self: center;
+    margin-top: 2rem;
+    text-shadow: 1px 1px 2px #7d7d7d8e;
+}
+.mapas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+    margin: 3rem;
+}
 .rules-conteiner{
     display: flex;
     flex-direction: column;
@@ -400,4 +413,331 @@ button:not(hover){
 }
 .b-label{
     font-weight: bold;
+}
+.header-nav-chico{
+    display: none;
+}
+.chico-muestra{
+    display: none;
+}
+.chico-oculta{
+    display: initial;
+}
+iframe{
+    border: none;
+}
+@media only screen and (max-width: 768px) {
+    body{
+        width: 100vw;
+    }
+    .titulo-ppal{
+        padding: 0.1rem 1.5rem 0.3rem 1.5rem;
+        font-size: 2rem;
+    }
+    .logo{
+        width: 6rem;
+        top: 5rem; left: 2.5rem;
+        border-radius: 0.5rem;
+    }
+    .titulo-home{
+        font-size: 1.5rem;
+    }
+    .nav-nuevo{
+        gap: 0.5rem;
+        margin-right: 2.5rem;
+    }
+    .enlace-nuevo{
+        font-size: 0.8rem;
+    }
+    .main-home{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: space-evenly;
+        gap: 1rem;
+        width: 100vw;
+        height: auto;
+        margin: 2rem 0;
+    }
+    .img-home, .img-about, .img-contact{
+        border-radius: 50%;
+        width: 15rem;
+        height: 15rem;
+    }
+    .lista-home{
+        padding: 2rem 1.2rem 2rem 2rem;
+        border-radius: 1.2rem;
+        box-shadow: 3px 3px 2px rgba(118, 11, 11, 0.669);
+        background-color: whitesmoke;
+        width: 50vw;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    section.art-home > h3{
+        font-style: italic;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .art-home > p{
+        margin-top: 0.5rem;
+        font-size: 1rem;
+    }
+    .lista-about{
+        padding: 1.5rem;
+        border-radius: 1.2rem;
+        width: 60vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        row-gap: 1rem;
+    }
+    article.art-about h2{
+        font-size: 1.1rem;
+        font-weight: bold;
+        font-style: italic;
+    }
+    article.art-about p{
+        margin-top: 0.2rem;
+        font-size: 1rem;
+    }
+    .contact-info{
+        font-size: 1.2rem;
+    }
+    .ball{
+        margin-bottom: 2.5rem;
+        border-radius: 50%;
+        width: 1.5rem;
+        height: 1.5rem;
+        animation: bounce 1s infinite alternate;
+        -webkit-animation: bounce 0.8s infinite alternate;
+    }
+    .jug-tabla{
+        display: none;
+    }
+    table{
+        background-color: rgba(93, 116, 189, 0.742);
+        height: auto;
+        width: 80vw;
+        border-radius: 0 0 1rem 1rem;
+        text-align: left;
+        box-shadow: 3px 3px 2px rgba(77, 77, 77, 0.669);
+        margin: 3rem;
+    }
+    .info-ad{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        font-size: 1.1rem;
+        width: 80vw;
+        margin-bottom: 3rem;
+        background-color: whitesmoke;
+        border-radius: 1rem;
+        padding: 1rem;
+        box-shadow: 3px 3px 2px rgba(133, 133, 133, 0.669);
+    }
+    .loc-title{
+        font-size: 1.5rem;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .mapas{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        justify-content: space-evenly;
+        align-content: space-evenly;
+        margin: 0;
+    }
+    .chico-muestra{
+        display: initial;
+    }
+    .chico-oculta{
+        display: none;
+    }
+    .formulario{
+        width: 90vw;
+    }
+}
+@media only screen and (max-width: 375px) {
+    header{
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 0.5rem;
+        height: 35vh;
+    }
+    .titulo-ppal{
+        padding: 0.1rem 1.5rem 0.3rem 1.5rem;
+        font-size: 1.5rem;
+    }
+    .logo{
+        position: initial;
+        width: 5rem;
+        align-self: center;
+        border-radius: 0.5rem;
+    }
+    .titulo-home{
+        font-size: 1rem;
+    }
+    .nav-nuevo{
+        gap: 0.3rem;
+    }
+    .enlace-nuevo{
+        font-size: 0.6rem;
+        padding: 0.3rem;
+    }
+    .main-home{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: space-evenly;
+        gap: 1rem;
+        width: 100vw;
+        height: auto;
+        margin: 2rem 0;
+    }
+    .img-home, .img-about, .img-contact{
+        border-radius: 50%;
+        width: 15rem;
+        height: 15rem;
+    }
+    .lista-home{
+        padding: 2rem 1.2rem;
+        border-radius: 1.2rem;
+        box-shadow: 3px 3px 2px rgba(118, 11, 11, 0.669);
+        background-color: whitesmoke;
+        width: 90vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    section.art-home > h3{
+        font-style: italic;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .art-home > p{
+        margin-top: 0.5rem;
+        font-size: 1rem;
+    }
+    .lista-about{
+        padding: 1.5rem;
+        border-radius: 1.2rem;
+        width: 80vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        row-gap: 1rem;
+    }
+    article.art-about h2{
+        font-size: 1.1rem;
+        font-weight: bold;
+        font-style: italic;
+    }
+    article.art-about p{
+        margin-top: 0.2rem;
+        font-size: 1rem;
+    }
+    .contact-info{
+        font-size: 1rem;
+    }
+    .ball{
+        margin-top: 3rem;
+        margin-bottom: 1.5rem;
+        border-radius: 50%;
+        width: 1.5rem;
+        height: 1.5rem;
+        animation: bounce 1s infinite alternate;
+        -webkit-animation: bounce 0.8s infinite alternate;
+    }
+    .jug-tabla{
+        display: none;
+    }
+    table{
+        background-color: rgba(93, 116, 189, 0.742);
+        height: auto;
+        width: 90vw;
+        border-radius: 0 0 1rem 1rem;
+        text-align: left;
+        box-shadow: 3px 3px 2px rgba(77, 77, 77, 0.669);
+        font-size: 0.8rem;
+    }
+    .info-ad{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 1rem;
+        font-size: 0.8rem;
+        width: 90vw;
+        margin-bottom: 3rem;
+        background-color: whitesmoke;
+        border-radius: 1rem;
+        padding: 1rem;
+        box-shadow: 3px 3px 2px rgba(133, 133, 133, 0.669);
+    }
+    .loc-title{
+        font-size: 1rem;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .mapas{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        width: 90vw;
+        justify-content: center;
+        align-content: center;
+        margin: 0;
+    }
+    .chico-muestra{
+        display: block;
+    }
+    .chico-oculta{
+        display: none;
+    }
+    .formulario{
+        width: 90vw;
+    }
+    iframe{
+        width: 70vw;
+    }
+    .r-title{
+        font-size: 1.2rem;
+    }
+    dt, dd{
+        font-size: 1rem;
+    }
+    li{
+        font-size: 1rem;
+    }
+    .rules-conteiner h3{
+        font-size: 1rem;
+    }
+    .rules-conteiner{
+        width: 90vw;
+        margin: 1rem auto;
+        font-size: 0.9rem;
+    }
+    .formulario{
+        width: 90vw;
+        height: auto;
+        padding: 2rem 2rem;
+        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        border-radius: 1rem;
+    }
 }
